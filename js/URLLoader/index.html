@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+	<script src="URLLoader.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			var loader = window.com.net.URLLoader();
+			loader.addEventListener("success",function(data){alert(data)});
+			loader.load('http://127.0.0.1/index.php',"get");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
